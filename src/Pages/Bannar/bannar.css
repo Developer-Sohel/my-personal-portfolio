@@ -1,0 +1,50 @@
+/* .bg {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.shadow {
+  background-image: url("https://cdn.pixabay.com/photo/2019/01/05/10/01/knowledge-3914811_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.shadow {
+  background-color: azure;
+}
+
+.red {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(178, 0, 184, 1) 0%,
+    rgba(71, 0, 159, 1) 90%
+  );
+}
+
+.contact-button {
+  background-image: linear-gradient(
+    to right,
+    #4b6cb7 0%,
+    #182848 51%,
+    #4b6cb7 100%
+  );
+
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.clene:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
