@@ -4,7 +4,9 @@ import '../About/about.css'
 const About = () => {
   return (
 
-    <div className=''>
+    
+
+    <div id="about">
          <div className='container mx-auto px-3 md:px-24 md:flex py-2  md:py-28'>
             <div className='grid grid-cols-1 lg:grid-cols-2 px-3 py-3  gap-4 items-center'>
                 {/* img-section */}

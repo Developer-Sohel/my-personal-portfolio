@@ -23,9 +23,11 @@ const Skills = () => {
        
         <div className='shadow-xl px-5 py-5 rounded-md'>
         <h1 className='text-2xl font-bold text-green-400'>Education</h1>
-            <h1 className='text-slate-400 font-medium lg:text-xl py-3'><span className="text-orange-400"><FaGraduationCap />
+            <h1 className='text-green-500  font-semibold lg:text-xl py-3'><span className="text-orange-400"><FaGraduationCap />
             </span> Bachelor of Business Administration</h1>
-            <p className='text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis cumque ut quos atque recusandae vitae voluptas natus nihil ad!</p>
+            <p className='text-slate-500 font-light tracking-wider'>
+            Dedicated BBA student with a strong academic record and a keen interest in [mention your area of specialization, e.g., business analytics, 
+            </p>
             <p className='font-bold text-red-300 py-3'>Passing Year : <span className='text-green-400'>2020-Present</span></p>
 
             <div className="divider divider-accent"></div>
@@ -34,9 +36,11 @@ const Skills = () => {
             <div>
 
             
-            <h1 className='text-slate-400 font-medium lg:text-xl py-3'> <span className="text-orange-400"><FaGraduationCap />
-            </span>Bachelor of Business Administration</h1>
-            <p className='text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis cumque ut quos atque recusandae vitae voluptas natus nihil ad!</p>
+            <h1 className='text-green-500  font-semibold lg:text-xl py-3'> <span className="text-orange-400"><FaGraduationCap />
+            </span>Higher Secondary School Certificate.</h1>
+            <p className='text-slate-500 font-light tracking-wider'>
+            Highly motivated and results-oriented individual with a strong academic foundation from completing the HSC exam in 2020.
+            </p>
             <p className='font-bold text-red-300 py-3'>Passing Year : <span className='text-green-400'>2020-Present</span></p>
                 
             </div>
@@ -50,7 +54,7 @@ const Skills = () => {
 
             <h1 className="text-green-500 font-bold text-xl px-2">Technical Skills</h1>
 
-            <div className="grid grid-cols-2 lg:grid-cols-4 py-6 px-4 gap-4">
+            <div className="grid grid-cols-3 lg:grid-cols-4 py-6 px-4 gap-4">
 
 
             <div className="shadow-2xl bg-slate-50 rounded-lg flex items-center px-2 py-2 gap-3 text-orange-500 font-bold">
