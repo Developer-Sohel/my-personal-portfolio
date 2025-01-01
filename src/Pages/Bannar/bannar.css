@@ -13,10 +13,6 @@
   background-size: cover;
 } */
 
-.shadow {
-  background-color: azure;
-}
-
 .red {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   background-image: radial-gradient(

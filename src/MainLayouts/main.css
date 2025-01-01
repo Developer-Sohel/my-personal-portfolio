@@ -2,4 +2,5 @@ body {
   @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Code:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
   font-family: "Josefin Sans", serif;
+  background-color: azure;
 }

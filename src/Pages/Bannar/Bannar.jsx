@@ -5,9 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 export const Bannar = () => {
   return (
-   <div className="shadow min-h-screen">
-     <div className='bg min-h-screen'>
-        <div className="container mx-auto px-2 md:px-24 md:flex py-24 md:py-28 gap-8 items-center flex-col lg:flex-row-reverse">
+   <div className="">
+     <div className='bg'>
+        <div className="container mx-auto px-3 md:px-24 md:flex py-24  md:py-28 gap-8 items-center flex-col lg:flex-row-reverse">
 
               {/* img */}
 
@@ -16,8 +16,8 @@ export const Bannar = () => {
             <img src="sohel.png" className='w-96 h-96 rounded-full red relative animate-bounce' alt="" />
             </div>
             {/* info */}
-            <div className='lg:w-1/2 w-full'>
-                <h1 className="md:text-6xl text-3xl font-semibold tracking-wide leading-10 mb-4 mt-7 md:mb-8
+            <div className='lg:w-1/2 w-full '>
+                <h1 className="md:text-6xl text-4xl font-bold tracking-wide leading-10 mb-4 mt-7 md:mb-8
                  text-green-500 "> I'M SOHEL <span className='text-orange-500'>KHAN</span></h1>
 
                  <p className='text-xl font-medium text-orange-500 mb-4 md:mb-6'>
@@ -52,12 +52,17 @@ export const Bannar = () => {
                 challenging role to expand my skills and contribute to a successful
                 development team.</p>
 
-                <button className='flex items-center gap-3 bg-orange-500 px-8 py-2 text-white
-                font-semibold rounded-md
+                <div className="flex gap-4">
+
+                <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 rounded-bl-3xl">Purple to Pink</button>
+
+                <button type="button" class="text-white bg-gradient-to-r -tracking-tighter leading-8 from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 rounded-tr-3xl">Download CV</button>
+
                 
-                '>Contact <span><GrContact /></span> </button>
                 
-                            
+                
+                
+                </div>
                 </div>
           
         </div>
