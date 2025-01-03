@@ -1,14 +1,14 @@
 import React from 'react'
 import { Bannar } from '../Bannar/Bannar'
-import About from '../About/About'
-import Project from '../Project/Project'
+import { Services } from './../Services/Services';
+
 
 const Home = () => {
   return (
     <div>
         <Bannar/>
-        <About/>
-        <Project/>
+        <Services/>
+        
     </div>
   )
 }
